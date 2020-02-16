@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Calculator</string>
+
+
+    <string name="txt_add">Addition of two number \n %d</string>
+    <string name="txt_sub">Subtraction of two number \n %d</string>
+    <string name="txt_mul">Multiplication of two number \n %d</string>
+    <string name="txt_div">Division of two number \n %f</string>
 </resources>

@@ -31,4 +31,60 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sample_text"/>
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.10" />
+
+    <TextView
+        android:id="@+id/tv_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_add"
+        android:gravity = "center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingVertical="25dp"/>
+
+
+
+    <TextView
+        android:id="@+id/tv_sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_sub"
+        android:gravity = "center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_add"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingVertical="25dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_mul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_mul"
+        android:gravity = "center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_sub"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingVertical="25dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_div"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_div"
+        android:gravity = "center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_mul"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingVertical="25dp"/>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
